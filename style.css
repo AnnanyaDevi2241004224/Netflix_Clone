@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{background-color: black;}
+
+.main {
+    overflow: hidden;
+    padding-right: 10px;
+    background-image: url("media/images/bg.jpg");
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    ;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 15px;
+    /* padding: 0 30px; */
+    text-align: center;
+}
+
+.text> :nth-child(1) {
+    font-size: 52px;
+    font-weight: bolder;
+    margin: 0 30px;
+    padding-right: 20px;
+
+}
+
+.text> :nth-child(2) {
+    font-size: xx-large;
+    margin: 0 30px;
+    padding-right: 20px;
+
+}
+
+.text> :nth-child(3) {
+    font-size: larger;
+    margin: 0 30px;
+    padding-right: 20px;
+
+}
+
+.text .line {
+    height: 18px;
+    background-color: rgb(229, 11, 11);
+    z-index: 34;
+    width: 100%;
+}
+
+.line {
+    height: 9px;
+    background-color: rgb(74, 73, 73);
+    top: 90vh;
+    padding: 0;
+    position: relative;
+}
+
+.btn {
+    padding: 4px 9px;
+    cursor: pointer;
+}
+
+.btnRed {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.i {
+    padding: 0 3px;
+}
+
+.big {
+    width: 180px;
+    height: 48px;
+    font-size: 23px;
+}
+
+.small {
+    width: 85px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.main input {
+    width: 380px;
+    height: 49px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: rgba(19, 19, 19, 0.806);
+    border: 1px solid gray;
+    outline: 2px solid white;
+    outline-offset: 2px;
+    color: #fff;
+}
+
+.btn1 {
+    background-color: rgba(19, 19, 19, 0.806);
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+.l {
+    border: 1px solid rgba(255, 255, 255, 0.744);
+    border-radius: 5px;
+}
+
+.l1 {
+    display: flex;
+    column-gap: 18px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color:#fff;
+    width: 70vw;
+    height: 70vh;
+    /* background-color: aquamarine; */
+}
+.first >:nth-child(1)>:nth-child(1)
+{
+    font-size: 52px;
+    font-weight: bolder;
+}
+.first >:nth-child(1)>:nth-child(2)
+{
+    font-size:25px;
+    /* margin: 0 5px; */
+    /* padding-right: 5px; */
+}
+.firstDiv{
+    position: relative;
+    margin-top: 24px;
+    right: 82px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 583px;
+}
+.secImage{
+    margin: 70px;
+}
+.secImg img{
+    width: 35vw;
+    margin-top: -30px;
+position: relative;
+z-index: 1;
+}
+.secImg video{
+    position: absolute;
+    right: 297px;
+    bottom: -396px;
+    width: 410px;
+    height: 310px;
+}
+.main input ::placeholder {
+    color: white;
+}
+.lines{height: 5px; background-color: rgb(99, 96, 96);}
+.second >:nth-child(2)>:nth-child(1)
+{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.second>:nth-child(2)>:nth-child(2)
+{
+    font-size:25px;
+    /* margin: 0 5px; */
+    /* padding-right: 5px; */
+}
+.second .firstDiv{
+    position: relative;
+    margin-top: 24px;
+    right: 82px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 583px;
+}
+.second .secImage{
+    margin: 70px;
+}
+.second .secImg img{
+    width: 35vw;
+    margin-top: -30px;
+position: relative;
+right:100px;
+}
+.third .secImg video{position: absolute;
+    right: 338px;
+    bottom: -1305px;
+    width: 314px;
+    height: 310px;} 
